@@ -1,7 +1,12 @@
+//nome: Priscila Herculano
+//RA: 10420400
+
 package br.dev.priscila.webservice;
 
 import java.util.*;
 
+import org.springframework.stereotype.Service;
+@Service
 public class CursosManager{
     private List<Curso> cursos;
 
